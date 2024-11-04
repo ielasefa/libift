@@ -1,0 +1,8 @@
+int main()
+{
+    int content = 3;
+    t_list *node = ft_lstnew(&content);
+
+    if (node)
+        printf("Content: %d\n", *(int *)node->content);
+    return 0;
