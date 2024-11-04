@@ -6,11 +6,10 @@
 /*   By: iel-asef <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 21:58:33 by iel-asef          #+#    #+#             */
-/*   Updated: 2024/11/04 15:16:55 by iel-asef         ###   ########.fr       */
+/*   Updated: 2024/11/04 16:50:03 by iel-asef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stdio.h>
 
 int	count(char const *s, char c)
 {
@@ -82,23 +81,3 @@ char	**ft_split(char const *s, char c)
 	result[j] = (NULL);
 	return (result);
 }
- int	main(void)
- {
-		
-		char **split = ft_split(NULL, ',');
-
-	/*	if (!split)
-		{
-			printf("Split failed\n");
-			return (1);
-		}
-
-		while (split[i])
-		{
-			printf("%s\n", split[i]);
-			free(split[i]);
-			i++;
-		}*/
-		free(split);
-		return (0);
- }
