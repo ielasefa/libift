@@ -6,7 +6,7 @@
 /*   By: iel-asef <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 15:12:57 by iel-asef          #+#    #+#             */
-/*   Updated: 2024/10/25 11:09:35 by iel-asef         ###   ########.fr       */
+/*   Updated: 2024/11/04 16:57:50 by iel-asef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
@@ -38,14 +38,3 @@ void	*ft_memmove(void *dst, const void *src, size_t len)
 	}
 	return (dst);
 }
-/*int	main(void) {
-
-	char overlap[11] = "1234567890";
-	ft_memmove(overlap + 2, overlap, 8);
-	for (int i = 0; i < 10; i++)
-	{
-		printf("index %d, n= %c\n", i, overlap[i]);
-	}
-	printf("%s\n", memmove(overlap + 2, overlap, 8));
-	}
-*/

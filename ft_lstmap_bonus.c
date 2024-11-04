@@ -6,12 +6,11 @@
 /*   By: iel-asef <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/02 19:35:34 by iel-asef          #+#    #+#             */
-/*   Updated: 2024/11/03 18:02:06 by iel-asef         ###   ########.fr       */
+/*   Updated: 2024/11/04 16:56:42 by iel-asef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #include "libft.h"
-#include <stdio.h>
-
+/*
 void	*double_value(void *content)
 {
 	int	*new_value;
@@ -27,7 +26,7 @@ void	free_content(void *content)
 {
 	free(content);
 }
-
+*/
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *))
 {
 	t_list	*new_node;

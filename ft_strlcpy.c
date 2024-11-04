@@ -6,7 +6,7 @@
 /*   By: iel-asef <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/24 09:40:12 by iel-asef          #+#    #+#             */
-/*   Updated: 2024/10/30 00:38:04 by iel-asef         ###   ########.fr       */
+/*   Updated: 2024/11/04 16:59:48 by iel-asef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,18 +34,3 @@ size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
 	}
 	return (len_src);
 }
-/*
-#include <stdio.h>
-
-
-int	main(void) {
-	char src[] = "ilyass elasefar";
-	char dst[25];
-
-	size_t len = ft_strlcpy(dst, src, sizeof(dst));
-
-	printf(" %s\n", dst);
-	printf(" %zu\n", len);
-
-	return (0);
-}*/

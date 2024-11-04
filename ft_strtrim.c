@@ -6,7 +6,7 @@
 /*   By: iel-asef <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/29 12:27:51 by iel-asef          #+#    #+#             */
-/*   Updated: 2024/10/29 21:32:47 by iel-asef         ###   ########.fr       */
+/*   Updated: 2024/11/04 17:00:52 by iel-asef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -39,13 +39,3 @@ char	*ft_strtrim(char const *s1, char const *set)
 	dst[j] = '\0';
 	return (dst);
 }
-/*
-int	main(void) {
-	const char *str = "      Heallo, World!      ";
-	const char *set = " ";
-	char *result = ft_strtrim(str, set);
-		printf("'%s'\n", result);
-		free(result);
-
-	return (0);
-}*/
