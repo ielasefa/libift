@@ -5,8 +5,9 @@ SRC = ft_atoi.c ft_isascii.c ft_memcmp.c ft_putendl_fd.c ft_strdup.c ft_strlen.c
       ft_isalnum.c ft_itoa.c ft_memset.c ft_split.c ft_strlcat.c ft_strnstr.c ft_toupper.c \
       ft_isalpha.c ft_memchr.c ft_putchar_fd.c ft_strchr.c ft_strlcpy.c ft_strrchr.c
 
-BOUNS = ft_lstnew ft_lstadd_front ft_lstsize ft_lstlast ft_lstadd_back \
-		ft_lstdelone ft_lstclear ft_lstiterft_lstmap
+BOUNS = ft_lstnew_bonus.c ft_lstadd_front_bonus.c ft_lstsize_bonus.c ft_lstlast_bonus.c \
+		ft_lstadd_back_bonus.c  ft_lstdelone_bonus.h ft_lstclear_bonus.c ft_lstiter_bonus.c \
+		ft_lstmap_bonus.c
 
 CC = cc
 CFLAGS = -Wall -Wextra -Werror

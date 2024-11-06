@@ -6,12 +6,11 @@
 /*   By: iel-asef <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/25 15:19:36 by iel-asef          #+#    #+#             */
-/*   Updated: 2024/10/30 23:40:31 by iel-asef         ###   ########.fr       */
+/*   Updated: 2024/11/05 23:45:38 by iel-asef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <unistd.h>
 
 void	ft_putnbr_fd(int n, int fd)
 {

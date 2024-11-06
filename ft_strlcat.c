@@ -5,10 +5,11 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: iel-asef <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/10/24 19:52:08 by iel-asef          #+#    #+#             */
-/*   Updated: 2024/10/30 23:53:01 by iel-asef         ###   ########.fr       */
+/*   Created: 2024/11/05 16:21:58 by iel-asef          #+#    #+#             */
+/*   Updated: 2024/11/05 23:48:52 by iel-asef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
+
 #include "libft.h"
 
 size_t	ft_strlcat(char *dst, const char *src, size_t dstsize)

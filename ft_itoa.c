@@ -6,14 +6,14 @@
 /*   By: iel-asef <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/28 21:58:12 by iel-asef          #+#    #+#             */
-/*   Updated: 2024/11/03 19:44:14 by iel-asef         ###   ########.fr       */
+/*   Updated: 2024/11/05 23:41:08 by iel-asef         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 #include <stdlib.h>
 
-int	len_itoi(int n)
+static int	len_itoi(int n)
 {
 	int	count;
 
@@ -43,10 +43,7 @@ char	*ft_itoa(int n)
 		return (NULL);
 	dst[count] = '\0';
 	if (nb == 0)
-	{
 		dst[0] = '0';
-		return (dst);
-	}
 	if (nb < 0)
 	{
 		dst[0] = '-';
